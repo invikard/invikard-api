@@ -1,0 +1,33 @@
+{
+  "name": "invikard-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hynra/invikard-api.git"
+  },
+  "author": "github.com/hynra",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/hynra/invikard-api/issues"
+  },
+  "homepage": "https://github.com/hynra/invikard-api#readme",
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "cheerio": "^1.0.0-rc.3",
+    "fs": "0.0.1-security",
+    "get-urls": "^9.1.0",
+    "instagram-public-crawler": "^1.0.5",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "moment": "^2.24.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "yamljs": "^0.3.0"
+  }
+}
